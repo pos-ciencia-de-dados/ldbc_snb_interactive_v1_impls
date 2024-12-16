@@ -1,1 +1,5 @@
 *-postgres.csv
+dynamic
+substitution_parameters
+update_streams
+TEST_1G

@@ -18,3 +18,7 @@ tcr.log
 *.priv
 *.priv.*
 umbra/.dev.env
+
+**/.project
+**/.classpath
+**/.settings/

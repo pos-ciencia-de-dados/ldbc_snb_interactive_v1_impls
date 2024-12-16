@@ -9,6 +9,10 @@ export NEO4J_ENV_VARS=""
 export NEO4J_DRIVER_VERSION=4.4.11
 export NEO4J_VERSION=4.4.24
 
+export NEO4J_VANILLA_CSV_DIR=`pwd`/test-data/vanilla
+export NEO4J_CONVERTED_CSV_DIR=`pwd`/test-data/converted
+
+
 if [[ `uname -m` == "arm64" ]]; then
     export NEO4J_DOCKER_PLATFORM_FLAG="--platform linux/arm64"
 else
